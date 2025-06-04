@@ -1,0 +1,21 @@
+#login{
+    width: 100px; /* aumenta a largura */
+    height: 40px; /*aumenta a altura */
+    background-color: rgb(235, 84, 84);
+    color: #ffffff;
+    border-radius: 20px; /* bordas redondas */
+    border: none; /* tira as bordas */
+}
+
+
+#navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#banner{
+    height: 450px;
+    width: 450px;
+
+}
