@@ -15,8 +15,8 @@
 
 }
 #banner{
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
 }   
 
 .texto-banner{
@@ -24,14 +24,17 @@
     font-weight: bolder;
  }
  .caixa-texto{
-    width: 500px;
+    width: 550px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
  }
 .caixa-estrutura{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center ;
 
  }
 
@@ -40,28 +43,51 @@
 }
 
 #btn-get{
-    width: 100px; /* aumenta a largura */
+    width: 100px; /*aumenta a largura */
     height: 40px; /*aumenta a altura */
     background-color: rgb(235, 84, 84);
     color: #ffffff;
     border-radius: 20px; /* bordas redondas */
     border: none; /* tira as bordas */
 }
-.caixatitulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: blue;
-    width: 400px;
+.card-titulo{
     text-align: center;
+  
 }
 .titulos-secundarios{
  color: rgb(206, 46, 46);
  font-weight: 500;
+ 
 }
 
 .titulos-primarios{
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 35px;
+  flex-direction: row;
 }
+.caixa-titulo{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  flex-direction: row;
+  
+
+}
+.caixaf2{
+  font-weight: 900;
+
+}
+.caixa-best{
+  font-weight: 900;
+}
+ .sub-texto{
+  font-weight: bold; /*deixa as letras em negrito*/
+  font-size: large; /*aumenta o texto*/
+   }
+  .caixa-cards{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+  }
