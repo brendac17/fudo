@@ -91,3 +91,22 @@
    justify-content: space-around;
    
   }
+
+  .caixa-titulos{
+     color: rgb(206, 46, 46);
+     display: block;
+     margin-bottom: 20px;
+  }
+  .caixa-carde{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold; /*deixa as letras em negrito*/
+    font-size: large; /*aumenta o texto*/
+    display: block;
+    margin-bottom: 40px;
+    
+  }
+  
+  
+  
