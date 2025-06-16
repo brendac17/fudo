@@ -97,16 +97,20 @@
      display: block;
      margin-bottom: 20px;
   }
-  .caixa-carde{
+  .caixa-card{
     width: 450px;
     display: flex;
     flex-direction: column;
     font-weight: bold; /*deixa as letras em negrito*/
     font-size: large; /*aumenta o texto*/
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     
   }
-  
-  
-  
+  .caixa-cards img {
+    width: 300;
+    height: 300;
+    gap: 40px; /*espaço entra as imagens,etc*/
+    border-radius:20px ;
+   
+  } 
