@@ -114,3 +114,30 @@
     border-radius:20px ;
    
   } 
+ .caixa-carde{
+  color: rgb(206, 46, 46);
+  display: block;
+  margin-bottom: 20px;
+ }
+ #textos{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+ }
+ #cozinheiro{
+  width: 500px;
+  height: auto;
+  margin-right: 10px;                                                                                                                             
+
+ }
+.caixa-img{
+  display: flex;
+  flex-direction: column;
+  display: block;
+  margin-bottom: 60px;
+}
+
+
+ 
+
+ 
